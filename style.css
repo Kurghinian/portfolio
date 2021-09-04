@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    margin: 0.1;
+    padding: 0;
+}
+.cont{
+    width: 510px;
+    height: 650px;
+    background-color: white;
+    border-radius: 15px;
+    margin: auto auto;
+}
+.image > img{
+    width:200px;
+    height: 200px;
+     margin-left:155px;
+}
+.name > h1{
+    text-align: center;
+    font-family: cursive;
+    color: grey;
+}
+.icons > p{
+    text-align: center;
+}
+.skills > img{
+    height: 50px;
+}
+.skills > h1{
+    color:grey;
+    text-align: center;
+}
+.resume > .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 130px;
+
+  }
+  
+  /* Darker background on mouse-over */
+ .resume > .btn:hover {
+    background-color: RoyalBlue;
+  }
+  .resume > .btn > a{
+      text-decoration: none;
+      color:white;
+  }
+ 
